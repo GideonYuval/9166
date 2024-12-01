@@ -11,34 +11,6 @@ namespace _9166
     {
         static void Main(string[] args)
         {
-            //Q1
-            Node<int> n1 = Arr2List(new int[] { 1, -4, 5, -7,2 }); //True
-            Console.WriteLine(Numbers(n1));
-            n1 = Arr2List(new int[] { 1, -4, -5, -7, 2 }); //False
-            Console.WriteLine(Numbers(n1));
-
-            //Answer - return True if the list includes numbers with alternating signs, false otherwise
-
-
-            //Q2
-            Node<int> n2 = Arr2List(new int[] { 6,30,12,3 });
-            Console.WriteLine(Value(n2));
-
-            //Answer - return the max of the list
-
-            //Q3
-            CallDoingWhat();
-
-            Node<int> n3 = Arr2List(new int[] { 7,7,7 });
-            Console.WriteLine(Check(n3));
-            Node<int> n4 = Arr2List(new int[] { 7, 2, 7 });
-            Console.WriteLine(Check(n4));
-
-            //Answer - Check returns true if all elements are equal, false otherwise
-            //Q3.1 - Check(n3) is true, so also CallDoingWhat(n3) will return true
-            //       Check(n4) is false, but CallDoingWhat(n3) will return true since it's symetric 
-
-
         }
 
         static Node<int> Arr2List(int[] arr)
