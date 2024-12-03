@@ -62,6 +62,7 @@ namespace _9166
 
         //עקבו אחרי הפעולה הבאה - מה יודפס
         //מה מטרת הפעולה CallDoingWhat
+        //מה הסיבוכית של הפעולה
 
         static void CallDoingWhat()
         {
